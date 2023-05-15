@@ -14,7 +14,8 @@ class Program
     const int NumberOfSteps = 1_000_000_000;
     static void Main()
     {
-        Console.WriteLine("Number of steps: {NumberOfSteps}");
+        Console.WriteLine($"Number of steps: {NumberOfSteps}");
+        Console.WriteLine($"Number of processors: {Environment.ProcessorCount}");
         Console.WriteLine("Function               | Elapsed Time     | Estimated Pi");
         Console.WriteLine("-----------------------------------------------------------------");
 
